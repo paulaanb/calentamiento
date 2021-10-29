@@ -1,12 +1,65 @@
-aumento = 20
-money = 2000
-a = 21
-helado = 100
-a = a+aumento
-money =money-helado
-if a <85 and money <= helado:
-    print("Paula is hungry")
-if a==85 or a <=100 and money <=helado:
-    print ("Paula is not hungry") 
+edad = int(input("Introduzca aqui su edad por favor: "))
+dinero_inicial = int(2000)
+precio_inicial_helado = 100
+porcentaje = 1.2
+precio_helado_1 = 100*porcentaje
+precio_helado_2 = 100*(porcentaje**2)
+precio_helado_3 = 100*(porcentaje**3)
+precio_helado_4 = 100*(porcentaje**4)
+precio_helado_5 = 100*(porcentaje**5)
+precio_helado_6 = 100*(porcentaje**6)
+precio_helado_7 = 100*(porcentaje**7)
+precio_helado_8 = 100*(porcentaje**8)
+precio_helado_9 = 100*(porcentaje**9)
+precio_helado_10 = 100*(porcentaje**10)
+hambre_inicial = int(0 + edad)
+
+if edad>=85:
+    print("No tienes la edad suficiente para comer helado, vuelve a intentarlo el año que viene.")
+elif edad<0:
+    print("Casi pero no Ruben, te quiero :)")
 else:
-    print("Paula is ran out of money")
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+        hambre_inicial = 2*edad
+        dinero_inicial = dinero_inicial - precio_inicial_helado
+        print ("Esta persona se come 1 helado")
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 3*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 2 helados")  
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 4*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 3 helados") 
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 5*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 4 helados") 
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 6*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 5 helados") 
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 7*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 6 helados") 
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 8*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 7 helados") 
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 9*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 8 helados") 
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 10*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 9 helados") 
+    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+       hambre_inicial = 11*edad
+       dinero_inicial = dinero_inicial - precio_inicial_helado
+       print ("Esta persona se come 10 helados") 
+if hambre_inicial>100:
+    hambre_inicial=100
+print ("Le quedan" + str(dinero_inicial) + "euros y se ha saciado en un" + str(hambre_inicial) + "%")
+
