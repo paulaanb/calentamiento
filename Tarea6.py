@@ -14,3 +14,5 @@ else:
         
 #Output:¡Usted tiene envio gratis! El precio total de su pedido es 101 euros.
 #Si el valor introducido es <100 el mensaje sera el mismo mas la suma del coste envio. 
+
+#enlaceparasigma: https://www.figma.com/file/kDV4F5Vkyos8ZUiMikpu5N/Tarea6.py-pigma
