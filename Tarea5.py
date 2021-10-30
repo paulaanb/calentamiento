@@ -23,43 +23,44 @@ else:
         hambre_inicial = 2*edad
         dinero_inicial = dinero_inicial - precio_inicial_helado
         print ("Esta persona se come 1 helado")
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_2<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 3*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_2
        print ("Esta persona se come 2 helados")  
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_3<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 4*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_3
        print ("Esta persona se come 3 helados") 
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_4<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 5*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_4
        print ("Esta persona se come 4 helados") 
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_5<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 6*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_5
        print ("Esta persona se come 5 helados") 
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_6<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 7*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_6
        print ("Esta persona se come 6 helados") 
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_7<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 8*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_7
        print ("Esta persona se come 7 helados") 
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_8<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 9*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_8
        print ("Esta persona se come 8 helados") 
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_9<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 10*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_9
        print ("Esta persona se come 9 helados") 
-    if precio_inicial_helado<=dinero_inicial and hambre_inicial<=85:
+    if precio_helado_10<=dinero_inicial and hambre_inicial<=85:
        hambre_inicial = 11*edad
-       dinero_inicial = dinero_inicial - precio_inicial_helado
+       dinero_inicial = dinero_inicial - precio_helado_10
        print ("Esta persona se come 10 helados") 
 if hambre_inicial>100:
     hambre_inicial=100
-print ("Le quedan" + str(dinero_inicial) + "euros y se ha saciado en un" + str(hambre_inicial) + "%")
+    
+print ("A usted le quedan" + str(dinero_inicial) + "euros y se siente saciado en un" + str(hambre_inicial) + "%")
 
