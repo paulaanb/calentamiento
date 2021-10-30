@@ -3,7 +3,7 @@ for i in range(0,51):
     
 import random
 
-edad = random.randint(0.50)
+edad = random.randint(0,50)
 dinero_inicial = int(2000)
 precio_inicial_helado = 100
 porcentaje = 1.2
