@@ -9,7 +9,7 @@ else:
         print ("¡Usted tiene envio gratis! El precio total de su pedido es de" + str(customer_basket_cost)+ "euros")
     else:
         shipping_cost = customer_basket_weight * shipping_cost_per_kg
-        customer_cost = shipping_cost + customer_basket_cost
+        customer_cost = shipping_basket_cost + customer_basket_cost
         print ("El precio total de su pedido asciende a la cantidad de" + str(customer_cost) + "euros")
 
 #Salida:¡Usted tiene envio gratis! El precio total de su pedido es 101 euros.
