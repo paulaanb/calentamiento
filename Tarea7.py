@@ -70,3 +70,5 @@ else:
        hambre_inicial=100
        
        print ("A usted le quedan" + str(dinero_inicial) + "euros y se siente saciado en un" + str(hambre_inicial) + "%")
+       
+#enlaceparasigma: https://www.figma.com/file/X9owBo9FU1VrTz95RDpV2C/Tarea7.py-Pigma?node-id=0%3A1
