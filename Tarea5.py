@@ -61,6 +61,6 @@ else:
        print ("Esta persona se come 10 helados")
     if hambre_inicial>100:
        hambre_inicial=100
-          
-print ("A usted le quedan" + str(dinero_inicial) + "euros y se siente saciado en un" + str(hambre_inicial) + "%")
+       
+       print ("A usted le quedan" + str(dinero_inicial) + "euros y se siente saciado en un" + str(hambre_inicial) + "%")
 
