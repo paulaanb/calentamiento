@@ -11,4 +11,4 @@ if investment_in_euros <= 30000:
 else:
     print("Su inversión está por encima de 30,000 euros. ¡Enhorabuena!")
 
-#Salida:¡Su inversión está por debajo de 30,000 euros! Le recomendamos vender inmediatamente. 
+#Output:¡Su inversión está por debajo de 30,000 euros! Le recomendamos vender inmediatamente. 

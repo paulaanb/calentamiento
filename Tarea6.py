@@ -12,5 +12,5 @@ else:
         customer_cost = shipping_basket_cost + customer_basket_cost
         print ("El precio total de su pedido asciende a la cantidad de" + str(customer_basket_cost) + "euros")
         
-#Salida:¡Usted tiene envio gratis! El precio total de su pedido es 101 euros.
+#Output:¡Usted tiene envio gratis! El precio total de su pedido es 101 euros.
 #Si el valor introducido es <100 el mensaje sera el mismo mas la suma del coste envio. 
